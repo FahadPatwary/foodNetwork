@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* Header Page CSS */
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+header img {
+  padding: 10px 40px;
+}
+header nav {
+  align-self: center;
+  padding-right: 40px;
+}
+header nav a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: black;
+}
+/* Home Page CSS */
+#home {
+  display: flex;
+  height: 100vh;
+}
+.half-width {
+  width: 50%;
+}
+.textContainer {
+  margin: 0 100px;
+  align-self: center;
+}
+.textContainer h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.textContainer h1 span {
+  color: rgb(54, 228, 50);
+}
+.textContainer p {
+  margin-bottom: 50px;
+  font-weight: lighter;
+  width: 70%;
+}
+.textContainer a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(88.33deg, #36e432 -7.64%, #137c02 145.94%);
+  padding: 15px 40px;
+  border-radius: 30px;
+  box-shadow: 0px 8px 35px 1px rgba(54, 228, 50, 0.55);
+}
+.imgContainer {
+  margin: auto auto;
+}
+.imgContainer img {
+  width: 80%;
+}
+/* About CSS */
+#about {
+  display: flex;
+  background-image: url(../img/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 80vh;
+}
+.aboutimg {
+  margin: auto auto;
+}
+.aboutimg img {
+  width: 60%;
+  margin-left: 150px;
+}
+.abouttext {
+  margin: 100px 100px 100px -100px;
+  align-self: center;
+  width: 40%;
+}
+.abouttext h1 {
+  font-size: 3rem;
+}
+.abouttext p {
+  margin: 20px 50px 40px 0px;
+  width: 80%;
+}
+.abouttext a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 30px;
+  background: linear-gradient(88.33deg, #36e432 -7.64%, #137c02 145.94%);
+  box-shadow: 0px 8px 35px 1px rgba(54, 228, 50, 0.55);
+}
+/* My Recipies Section CSS */
+#recipies {
+  margin-bottom: 70px;
+}
+.text {
+  text-align: center;
+  margin: 80px 100px 40px 100px;
+}
+.text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.text p {
+  width: 70%;
+  margin: auto;
+}
+.boxContainer {
+  display: flex;
+  margin: 0px 10vw;
+}
+.boxWidth {
+  width: 30%;
+  margin: 20px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.36);
+  border-radius: 20px;
+}
+.content {
+  text-align: center;
+  margin: 15px 0px;
+}
+.content img {
+  width: 90%;
+}
+.content h1 {
+  margin: 10px 0px;
+  font-size: 1.8rem;
+}
+.content p {
+  margin: 10px 5%;
+  line-height: 20px;
+}
+/* Simple Peoples Section */
+.peopleData {
+  display: flex;
+  width: 78%;
+
+  margin: auto;
+  text-align: center;
+  height: 160px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.1);
+}
+.peopleData h1 {
+  font-size: 3rem;
+}
+.peopleData span {
+  width: 33%;
+  align-self: center;
+}
+.newsletter {
+  width: 78%;
+  display: flex;
+  height: 160px;
+  margin: auto;
+  border-radius: 16px;
+  margin-top: 70px;
+  background: linear-gradient(84deg, #36e432 -7.64%, #137c02 145.94%);
+}
+.newsletter {
+  box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.1);
+}
+.newsletterContent {
+  margin: auto auto;
+}
+.newsletterContent h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+}
+.newsletterContent input {
+  padding: 13px 40px;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.newsletterContent button {
+  padding: 12px 40px;
+  border-radius: 30px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.newsletterContent button:hover {
+  background: rgb(32, 32, 32);
+}
+/* Footer Section CSS */
+footer {
+  height: 160px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+.footerimg {
+  text-align: center;
+  margin-top: 25px;
+}
+.footerimg a img {
+  margin-top: 25px;
+}
+footer p {
+  text-align: center;
+}
