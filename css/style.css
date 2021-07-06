@@ -201,6 +201,54 @@ header nav a {
 .newsletterContent button:hover {
   background: rgb(32, 32, 32);
 }
+
+/* Contact Section CSS */
+
+#contact {
+  margin-top: 70px;
+  text-align: center;
+  height: 300px;
+  background-image: url(../img/contact-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 600px;
+}
+#contact h1 {
+  font-size: 2rem;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.contactContainer {
+  padding-top: 140px;
+}
+form {
+  margin: auto;
+}
+form input {
+  padding: 15px 40px;
+  margin: 5px;
+  width: 20vw;
+}
+
+form textarea {
+  width: 20vw;
+  padding: 15px 40px;
+  margin: 5px;
+  height: 100px;
+}
+form button {
+  margin-top: 20px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  background: linear-gradient(84deg, #36e432 -7.64%, #137c02 145.94%);
+}
+
 /* Footer Section CSS */
 footer {
   height: 160px;
